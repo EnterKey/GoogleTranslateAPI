@@ -282,70 +282,36 @@
                     </div>
                 </div>
             </form>
+
             <div class="translatorHeader">
                 <span>직접번역 : </span><span>직접 번역한 결과가 나타납니다.</span>
             </div>
-          <pre class="translateDirectResult notranslate">
-          </pre>
+            <pre class="translateDirectResult notranslate">
+            </pre>
+
             <div class="translatorHeader">
                 <span class="translatorHeader">중계번역 : </span><span>중간 언어로 번역 후 최종 언어로 번역됩니다.</span>
             </div>
-          <pre class="translateResult notranslate">
-          </pre>
+            <pre class="translateResult notranslate">
+            </pre>
+
             <div class="translatorHeader">
                 <span class="translatorHeader">(참고)중간 언어 번역 : </span><span>중간 언어 번역 결과가 나타납니다.</span>
             </div>
-          <pre class="translateInterResult notranslate">
-          </pre>
+            <pre class="translateInterResult notranslate">
+            </pre>
         </div>
 
+
+        <!-- Textarea Library BEGIN -->
         <script type="text/javascript" src="./lib/flexText.min.js"></script>
         <script>
             $(function () {
                 $(".sourceText").flexText();
             });
         </script>
-        <script type="text/javascript">
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement({pageLanguage: 'ko', layout: google.translate.TranslateElement.FloatPosition.BOTTOM_RIGHT, multilanguagePage: true}, 'google_translate_element');
-            }
-        </script>
-        <script type="text/javascript"
-                src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        <!-- AddThis Button BEGIN -->
+        <!-- Textarea Library END -->
 
-        <script type="text/javascript">var addthis_config = {"data_track_addressbar": true};</script>
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52490a34017d8217"></script>
-        <!-- AddThis Button END -->
         <script src="./transplus.js"></script>
-
-        <script type="text/javascript">
-            function executeURLLink() {
-                kakao.link("talk").send({
-                    msg: "이런 번역기 어때? 나도 몰랐던 구글 번역기\n ",
-                    url: "http://acidsound.github.io/transplus",
-                    appid: "transplus.appsoulute.com.",
-                    appver: "2.0",
-                    appname: "transplus",
-                    type: "link"
-                });
-            }
-        </script>
-        <script type="text/javascript">
-
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-38877568-1']);
-            _gaq.push(['_trackPageview']);
-
-            (function () {
-                var ga = document.createElement('script');
-                ga.type = 'text/javascript';
-                ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(ga, s);
-            })();
-
-        </script>
     </body>
 </html>
