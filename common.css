@@ -1,0 +1,31 @@
+body {
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+.sourceText {
+    width: 100%;
+    height: 80px;
+}
+
+.hero-unit {
+    padding: 20px;
+}
+
+.kakaolink {
+    height: 22px;
+    margin-left: 10px;
+}
+
+textarea {
+    margin-bottom: 15px;
+}
+
+.translatorHeader {
+    margin-top: 15px;
+}
+
+@media (min-width: 1200px) {
+    .row {
+        margin-left: 0px;
+    }
+}
